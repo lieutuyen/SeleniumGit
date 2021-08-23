@@ -23,7 +23,7 @@ public class findLatestJob {
 		
 		search.sendKeys("QA job in Canada");
 		
-	    Thread.sleep(100); 
+	        Thread.sleep(100); 
 		
 		driver.findElement(By.xpath("//input[contains(@data-ved,'UDCAo')]")).click();
 		
@@ -37,15 +37,15 @@ public class findLatestJob {
 		
 		Thread.sleep(500); 
 		
-        WebElement pastweek = driver.findElement(By.xpath("//div[contains(@data-name,'week')]"));
+                WebElement pastweek = driver.findElement(By.xpath("//div[contains(@data-name,'week')]"));
 		
 		pastweek.click();
 		
 		Thread.sleep(3000); 
 
-	    System.out.println("Please select the lastest job");
-	    
-	    driver.close();
+	        System.out.println("Please select the lastest job");
+	   
+	        driver.close();
 	}
 
 }
