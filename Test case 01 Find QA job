@@ -37,10 +37,6 @@ public class findLatestJob {
 		
 		Thread.sleep(500); 
 		
-		//WebDriverWait wait = new WebDriverWait(new ChromeDriver(),5);
-		
-		//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[contains(@data-name,'week')]")));
-		
         WebElement pastweek = driver.findElement(By.xpath("//div[contains(@data-name,'week')]"));
 		
 		pastweek.click();
